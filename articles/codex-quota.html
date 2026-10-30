@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codex 额度怎么算？Plus 够不够用</title>
+<meta name="description" content="Codex 没有单独会员，额度随 ChatGPT Plus / Pro 提供。按 5 小时窗口估算、本地与云端共用、Fast 模式 2.5 倍消耗，以及怎么查剩余额度。">
+<link rel="canonical" href="https://mulfrion.github.io/ai-sub-guide/articles/codex-quota.html">
+<meta property="og:title" content="Codex 额度怎么算？Plus 够不够用">
+<meta property="og:description" content="5 小时窗口、共用额度、Fast 模式消耗与查额度方法。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mulfrion.github.io/ai-sub-guide/articles/codex-quota.html">
+<link rel="stylesheet" href="../assets/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Codex 额度怎么算？Plus 够不够用","datePublished":"2026-10-30","dateModified":"2026-10-30","inLanguage":"zh-CN","author":{"@type":"Organization","name":"GetVIP"},"mainEntityOfPage":"https://mulfrion.github.io/ai-sub-guide/articles/codex-quota.html"}
+</script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../index.html">AI 订阅<span>指南</span></a>
+    <nav><a href="../index.html">首页</a><a href="https://getvip.pro/price">价格表</a></nav>
+  </div>
+</header>
+<main class="wrap">
+  <h1>Codex 额度怎么算？Plus 够不够用</h1>
+  <p class="meta">更新于 2026-10-30 · 约 4 分钟读完</p>
+
+  <p class="lead">Codex 没有单独会员，它的额度跟着 ChatGPT Plus 和 Pro 走。所以你不需要「给 Codex 充值」，需要判断的是：现在的 ChatGPT 档位够不够撑住你的开发强度。</p>
+
+  <h2>额度不是固定条数</h2>
+  <p>官方按每 5 小时的本地消息数估算额度，不同模型消耗不同。它不是「每月 500 条」这种硬上限，而是滚动窗口内的动态限制。</p>
+  <p>三个容易忽略的点：</p>
+  <ul>
+    <li>本地消息和云端任务共用同一份额度，切换入口不会多给一份。</li>
+    <li>Fast 模式大约消耗标准模式的 2.5 倍，赶时间时用可以，别一直开着。</li>
+    <li>Codex-Spark 使用独立限额，不能按普通模型的用量估算。</li>
+  </ul>
+
+  <h2>怎么判断 Plus 够不够</h2>
+  <p>连续记录三天：每天用 Codex 多长时间、有没有出现额度提示。如果一天内就触顶，Plus 基本撑不住；如果一周只有一两次接近上限，Plus 仍然是最划算的选择。</p>
+  <p>升级顺序建议：Plus → Pro 5x → Pro 20x。直接上 20x 只适合每天长时间跑代理、并且把 AI 当主要生产工具的人。</p>
+
+  <h2>怎么查剩余额度</h2>
+  <ol>
+    <li>登录 ChatGPT，打开官方的 Usage（用量）页面，看当前周期的消耗。</li>
+    <li>在 Codex CLI 里输入 <code>/status</code>，查看账号状态和额度信息。</li>
+    <li>额度用尽时，本地或云端任务会直接提示达到上限。</li>
+  </ol>
+
+  <div class="note">
+    Codex 相关套餐以 <a href="https://getvip.pro/product/chatgpt">ChatGPT 商品页</a> 为准；完整规则说明见
+    <a href="https://getvip.pro/codex">GetVIP 的 Codex 充值页</a>。
+  </div>
+
+  <h2>常见问题</h2>
+  <h3>可以单独买 Codex 额度吗？</h3>
+  <p>没有这种商品。任何声称单独卖 Codex 额度的渠道都要谨慎。</p>
+  <h3>换账号后项目还在吗？</h3>
+  <p>本地项目文件还在本机，换号登录一般能打开；云端任务记录不会迁移。</p>
+  <h3>云端任务用不了某些模型？</h3>
+  <p>云端支持的模型范围有限，具体以官方文档为准，本地和云端不要混为一谈。</p>
+
+  <p><a class="cta" href="https://getvip.pro/product/chatgpt">查看 ChatGPT 套餐</a></p>
+  <p class="meta">相关阅读：<a href="plus-vs-pro.html">Plus 和 Pro 怎么选</a> · <a href="session-or-password.html">代充需要密码吗</a></p>
+</main>
+<footer class="site"><div class="wrap"><p>AI 订阅指南 · 额度规则以官方说明为准。</p></div></footer>
+</body>
+</html>

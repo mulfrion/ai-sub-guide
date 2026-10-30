@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mulfrion.github.io/ai-sub-guide/sitemap.xml
